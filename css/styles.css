@@ -129,11 +129,6 @@ img {
   align-items: center;
 }
 
-.menu-address-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .contacts ul li {
   align-items: flex-start;
   align-items: center;
@@ -265,7 +260,7 @@ img {
   gap: 24px;
 }
 
-.menu-team-list:first-child {
+.menu-team:first-child {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }

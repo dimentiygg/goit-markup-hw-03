@@ -1,8 +1,28 @@
+/* Common styles */
 .link {
   text-decoration: none;
 }
 li {
   list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
 }
 
 h1,
@@ -23,27 +43,21 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+/* /Common styles */
+
+/* Page-header */
 .logo,
 .logo-span,
 .footer-logo,
 .footer-logo-span {
   text-decoration: none;
 }
-button {
-  cursor: pointer;
-}
 
-.container {
-  width: 1168px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-span {
@@ -64,7 +78,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 .main-nav {
   display: flex;
@@ -74,11 +88,16 @@ body {
   display: flex;
   gap: 40px;
   align-items: center;
+  padding-right: 320px;
+}
+.menu-items {
+  padding: 24px 0 24px;
 }
 
 .menu-address {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
 .menu .link {
@@ -121,9 +140,13 @@ body {
 .page-address:focus {
   color: #404bbf;
 }
+/* /Page-header */
 
+/* Page-Main */
 .sollution {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .main-title {
   font-size: 56px;
@@ -131,6 +154,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: white;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .order-button {
@@ -140,6 +166,11 @@ body {
   letter-spacing: 0.04em;
   color: white;
   background-color: #4d5ae5;
+  display: block;
+  border-radius: 4px;
+  height: 56px;
+  min-width: 169px;
+  border: none;
 }
 
 .order-button:hover,

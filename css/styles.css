@@ -97,6 +97,15 @@ img {
   align-items: center;
   padding-right: 320px;
 }
+
+.menu:last-child {
+  margin-right: 0;
+}
+.link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .menu-items {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -262,7 +271,6 @@ img {
 
 .menu-team:first-child {
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .menu-team:last-child {
@@ -276,6 +284,7 @@ img {
 
 .menu-team-list {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .title-workers {
